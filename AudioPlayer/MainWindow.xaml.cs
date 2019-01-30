@@ -24,5 +24,11 @@ namespace AudioPlayer
         {
             InitializeComponent();
         }
+
+        void Play(object sender, RoutedEventArgs args)
+        {
+            MyMediaElement.Play();
+        }
+
     }
 }
